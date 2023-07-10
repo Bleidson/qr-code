@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+
+    body{
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    main{
+      background-color: white;
+      width: 350px;
+      height: 520px;
+      text-align: center;
+      border-radius: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+    }
+
+    .qr img{
+      width: 90%;
+      margin: 20px;
+      border-radius: 10px;
+    }
+    
+    .descrition{
+      margin: 0px 20px 40px 20px;
+    }
+    .descrition h2{
+      font-family: 'Outfit';
+      font-weight: bolder;
+      color: hsl(218, 44%, 22%);
+      margin-bottom: 20px;
+    }
+    .descrition p{
+      font-size: 15px;
+      font-family:'Outfit';
+      color: hsl(219, 12%, 43%);
+      margin-bottom: 30px;
+    }
+
+    
+    
+  </style>
+</head>
+<body>
+  
+  <main>
+    
+    <section class="qr">
+      <img src="images/image-qr-code.png" alt="qr-code">
+    </section>
+    <section class="descrition">
+      <h2>Improve your front-end skills by building projects</h2>
+      <p>Scan the QR code to visit Frontend  Mentor and take your coding skills to  the next level</p>
+    </section>
+
+  </main>
+  
+  
+</body>
+</html>
